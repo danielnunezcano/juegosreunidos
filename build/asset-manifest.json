@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/juegosreunidos/static/css/main.5bd29dca.chunk.css",
-    "main.js": "/juegosreunidos/static/js/main.00369920.chunk.js",
-    "main.js.map": "/juegosreunidos/static/js/main.00369920.chunk.js.map",
+    "main.css": "/juegosreunidos/static/css/main.5ad7760e.chunk.css",
+    "main.js": "/juegosreunidos/static/js/main.0f31edbb.chunk.js",
+    "main.js.map": "/juegosreunidos/static/js/main.0f31edbb.chunk.js.map",
     "runtime-main.js": "/juegosreunidos/static/js/runtime-main.7cc125ed.js",
     "runtime-main.js.map": "/juegosreunidos/static/js/runtime-main.7cc125ed.js.map",
     "static/js/2.7dc3fa8a.chunk.js": "/juegosreunidos/static/js/2.7dc3fa8a.chunk.js",
     "static/js/2.7dc3fa8a.chunk.js.map": "/juegosreunidos/static/js/2.7dc3fa8a.chunk.js.map",
     "index.html": "/juegosreunidos/index.html",
-    "precache-manifest.5f44233382dae21f6d3afc64db4c4ac0.js": "/juegosreunidos/precache-manifest.5f44233382dae21f6d3afc64db4c4ac0.js",
+    "precache-manifest.288583eca045d600a0054ad71a6a4d4b.js": "/juegosreunidos/precache-manifest.288583eca045d600a0054ad71a6a4d4b.js",
     "service-worker.js": "/juegosreunidos/service-worker.js",
-    "static/css/main.5bd29dca.chunk.css.map": "/juegosreunidos/static/css/main.5bd29dca.chunk.css.map",
+    "static/css/main.5ad7760e.chunk.css.map": "/juegosreunidos/static/css/main.5ad7760e.chunk.css.map",
     "static/js/2.7dc3fa8a.chunk.js.LICENSE.txt": "/juegosreunidos/static/js/2.7dc3fa8a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7cc125ed.js",
     "static/js/2.7dc3fa8a.chunk.js",
-    "static/css/main.5bd29dca.chunk.css",
-    "static/js/main.00369920.chunk.js"
+    "static/css/main.5ad7760e.chunk.css",
+    "static/js/main.0f31edbb.chunk.js"
   ]
 }
