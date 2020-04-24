@@ -5,28 +5,28 @@ import Card from "../card";
 import { addCard, resetDeck, stop, addCardEnemy } from "../../actions/cards";
 import "./css/game.css";
 
-let interval = (props) => setInterval(props.addCardEnemy(), 1000);
-
 const Game = (props) => {
   let contCard = 0;
   let contCardEnemy = 0;
   const leftDist = () => contCard++ * 5;
   const leftDistEnemy = () => contCardEnemy++ * 5;
 
+  let interval = (props) => setTimeout(() => props.addCardEnemy(), 1000);
+
   return (
     <div>
       <FinishScore props={props} />
       {!props.cards.stop ? (
         props.cards.deckGame.map((card) => (
-          <Card type={card} left={leftDist()} top={50} />
+          <Card key={contCard} type={card} left={leftDist()} top={50} />
         ))
       ) : (
         <div>
           {props.cards.deckGame.map((card) => (
-            <Card type={card} left={leftDist()} top={50} />
+            <Card key={contCard} type={card} left={leftDist()} top={50} />
           ))}
           {props.cards.deckEnemy.map((card) => (
-            <Card type={card} left={leftDistEnemy()} top={200} />
+            <Card key={contCardEnemy*1000} type={card} left={leftDistEnemy()} top={200} />
           ))}
         </div>
       )}
@@ -34,7 +34,7 @@ const Game = (props) => {
       {props.cards.points < 7.5 && !props.cards.stop ? (
         <div>
           <div onClick={() => props.addCard()}>
-            <Card type={"bc"} left={leftDist()} top={50} />
+            <Card key={contCard} type={"bc"} left={leftDist()} top={50} />
           </div>
         </div>
       ) : (
@@ -46,7 +46,9 @@ const Game = (props) => {
               {clearInterval(interval)}
             </div>
           ) : (
-            interval(props)
+            <div style={{color: "white"}}>
+              {interval(props)}
+            </div>
           )}
         </div>
       )}
