@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "282810023782a3ef05b75c1679cc0a21",
+    "revision": "13f55baee772ce8e939bdb1a73b726cf",
     "url": "/juegosreunidos/index.html"
   },
   {
-    "revision": "ad18af50efc92ee5e2aa",
+    "revision": "564545d8d6083357a364",
     "url": "/juegosreunidos/static/css/main.5ad7760e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/juegosreunidos/static/js/2.7dc3fa8a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad18af50efc92ee5e2aa",
-    "url": "/juegosreunidos/static/js/main.0f31edbb.chunk.js"
+    "revision": "564545d8d6083357a364",
+    "url": "/juegosreunidos/static/js/main.73116c90.chunk.js"
   },
   {
     "revision": "342cef8f6ddf3ad8a13d",
