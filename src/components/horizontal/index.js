@@ -6,6 +6,7 @@ import "./css/horizontal.css";
 const Horizontal = (props) => {
   return (
     <div className="horizontal">
+      <div className="titulo">Siete y Media</div>
       {props.cards.points > 0 &&
         props.cards.points < 7.5 &&
         !props.cards.stop && (

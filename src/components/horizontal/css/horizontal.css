@@ -1,6 +1,6 @@
 .horizontal {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   height: 50px;
   width: 100%;
   background-color: #111;
@@ -10,6 +10,11 @@
 
 .horizontal > .button {
   cursor: pointer;
+}
+
+.horizontal > .titulo {
+  padding: 5px;
+  font-size: 30px;
 }
 
 .horizontal > .resultado {
